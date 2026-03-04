@@ -1,7 +1,8 @@
+streamlit
+yfinance
+matplotlib
 numpy
 pandas
-yfinance
 scikit-learn
 tensorflow
-streamlit
-matplotlib
+protobuf==3.20.3
