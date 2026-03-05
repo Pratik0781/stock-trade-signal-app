@@ -10,6 +10,9 @@ Original file is located at
 import streamlit as st
 import yfinance as yf
 import matplotlib.pyplot as plt
+from tensorflow.keras.models import load_model
+
+model = load_model("model.h5")
 
 from model import (
     prepare_lstm_data,
