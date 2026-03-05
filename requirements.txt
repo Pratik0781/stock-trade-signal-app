@@ -2,9 +2,7 @@ streamlit
 yfinance
 matplotlib
 numpy==1.23.5
-pandas
-scikit-learn
-tensorflow==2.12.0
+pandas==1.5.3
+scikit-learn==1.2.2
+tensorflow-cpu==2.12.0
 protobuf==3.20.3
-setuptools
-wheel
