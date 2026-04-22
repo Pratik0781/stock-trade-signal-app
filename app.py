@@ -61,11 +61,11 @@ if st.button("Get Next Trade Signal"):
         # Train model
         model, rmse = train_lstm(X, y)
 
-        # Predict next price
+       # Predict next price
         predicted_price = predict_next_price(model, close_data, scaler)
 
         # Current market price
-        current_price = close_data.iloc[-1][0]
+        current_price = close_data.iloc[-1, 0]
 
         # Generate trade signal
         signal = generate_trade_signal(current_price, predicted_price)
