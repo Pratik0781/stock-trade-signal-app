@@ -1,56 +1,93 @@
-# 📈 Live Indian Stock Market Trade Signal Predictor
+# Stock Trade Signal App
 
-A professional Machine Learning-powered web application that predicts the **next trading signal (BUY / SELL / HOLD)** for selected Indian stocks using an **LSTM Deep Learning Model**.
+A machine learning based web application that helps users analyze stock market trends and generate buy or sell trade signals using technical indicators and predictive models. The system provides stock insights through an interactive and user-friendly dashboard.
 
-The application fetches real-time stock market data using Yahoo Finance and provides an educational decision-support dashboard for stock market analysis.
+## Live Demo
 
----
+https://stock-trade-signal-app.streamlit.app/
 
-## 🌐 Live Demo
+## Features
 
-🚀 **Hosted Website:** [Click Here to Open App](https://stock-trade-signal-app.streamlit.app/)
+* Buy and sell stock trade signal generation
+* Interactive stock market charts
+* Real-time stock trend analysis
+* Technical indicator based insights
+* Clean and responsive dashboard
+* User selected stock analysis
+* Hosted online for public access
 
----
+## Tech Stack
 
-## 🚀 Features
+* Python
+* Streamlit
+* Pandas
+* NumPy
+* Scikit-learn
+* Matplotlib
+* Plotly
+* yfinance
 
-- 📡 Live Indian stock market data using Yahoo Finance  
-- 🤖 LSTM Deep Learning model for prediction  
-- 💡 BUY / SELL / HOLD trade signals  
-- 📈 Interactive stock trend visualization  
-- 📉 RMSE model performance evaluation  
-- 🌐 Hosted on Streamlit Cloud  
-- 💻 Clean and responsive user interface  
+## Machine Learning Approach
 
----
+This project uses data analysis and forecasting techniques:
 
-## 🛠️ Technologies Used
+* Historical stock market data collection
+* Data preprocessing and cleaning
+* Moving averages and trend indicators
+* Buy and sell signal generation
+* Visualization of stock performance
 
-- Python  
-- Streamlit  
-- TensorFlow / Keras  
-- Pandas  
-- NumPy  
-- Scikit-learn  
-- Matplotlib  
-- Yahoo Finance API  
+## Project Structure
 
----
-
-## 📂 Project Structure
-
-```bash
-stock-trade-signal-app/
-│── .devcontainer/
-│── .python-version
-│── README.md
+```text id="1a2b3c"
+Sock_Market_Price_Prediction/
 │── app.py
-│── model.h5
-│── model.py
-│── packages.txt
 │── requirements.txt
-│── runtime.txt
-│── app.py
-│── model.py
-│── requirements.txt
-│── README.md
+│── model.pkl
+│── notebook.ipynb
+│── datasets/
+```
+
+## Installation
+
+Clone the repository:
+
+```bash id="4f5g6h"
+git clone https://github.com/Pratik0781/Sock_Market_Price_Prediction.git
+```
+
+Move to project directory:
+
+```bash id="7i8j9k"
+cd Sock_Market_Price_Prediction
+```
+
+Install required packages:
+
+```bash id="1l2m3n"
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash id="4o5p6q"
+streamlit run app.py
+```
+
+## Deployment
+
+Hosted on Streamlit Cloud:
+
+https://stock-trade-signal-app.streamlit.app/
+
+## Future Enhancements
+
+* Advanced machine learning forecasting
+* Multiple stock comparison
+* News sentiment integration
+* Portfolio tracker
+* Improved UI design
+
+## Author
+
+Pratik Shere
