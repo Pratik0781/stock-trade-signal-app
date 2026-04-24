@@ -1,6 +1,6 @@
 # Stock Trade Signal App
 
-A machine learning based web application that helps users analyze stock market trends and generate buy or sell trade signals using technical indicators and predictive models. The system provides stock insights through an interactive and user-friendly dashboard.
+A machine learning based web application that helps users analyze stock market trends and generate buy or sell trade signals using historical stock data, technical indicators, and predictive models. The project is deployed online with an interactive Streamlit dashboard.
 
 ## Live Demo
 
@@ -10,10 +10,10 @@ https://stock-trade-signal-app.streamlit.app/
 
 * Buy and sell stock trade signal generation
 * Interactive stock market charts
-* Real-time stock trend analysis
-* Technical indicator based insights
-* Clean and responsive dashboard
-* User selected stock analysis
+* Real-time trend analysis
+* Historical stock data visualization
+* Predictive insights using machine learning
+* User-friendly dashboard
 * Hosted online for public access
 
 ## Tech Stack
@@ -23,54 +23,59 @@ https://stock-trade-signal-app.streamlit.app/
 * Pandas
 * NumPy
 * Scikit-learn
+* TensorFlow / Keras
 * Matplotlib
 * Plotly
 * yfinance
 
 ## Machine Learning Approach
 
-This project uses data analysis and forecasting techniques:
+This project uses stock market analysis and forecasting techniques:
 
-* Historical stock market data collection
-* Data preprocessing and cleaning
-* Moving averages and trend indicators
+* Historical stock data preprocessing
+* Trend analysis using indicators
+* Deep learning model integration
 * Buy and sell signal generation
-* Visualization of stock performance
+* Visualization of results
 
 ## Project Structure
 
-```text id="1a2b3c"
+```text id="stk2031"
 Sock_Market_Price_Prediction/
 │── app.py
+│── model.py
+│── model.h5
 │── requirements.txt
-│── model.pkl
-│── notebook.ipynb
-│── datasets/
+│── packages.txt
+│── runtime.txt
+│── .python-version
+│── README.md
+│── .devcontainer/
 ```
 
 ## Installation
 
 Clone the repository:
 
-```bash id="4f5g6h"
+```bash id="stk2032"
 git clone https://github.com/Pratik0781/Sock_Market_Price_Prediction.git
 ```
 
 Move to project directory:
 
-```bash id="7i8j9k"
+```bash id="stk2033"
 cd Sock_Market_Price_Prediction
 ```
 
 Install required packages:
 
-```bash id="1l2m3n"
+```bash id="stk2034"
 pip install -r requirements.txt
 ```
 
 Run the application:
 
-```bash id="4o5p6q"
+```bash id="stk2035"
 streamlit run app.py
 ```
 
@@ -82,11 +87,11 @@ https://stock-trade-signal-app.streamlit.app/
 
 ## Future Enhancements
 
-* Advanced machine learning forecasting
 * Multiple stock comparison
-* News sentiment integration
-* Portfolio tracker
-* Improved UI design
+* News sentiment analysis
+* Better forecasting models
+* Portfolio management tools
+* Improved UI and analytics
 
 ## Author
 
